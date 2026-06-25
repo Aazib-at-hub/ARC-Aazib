@@ -14,8 +14,8 @@ export const Route = createFileRoute("/")({
       { title: "ARC — Mohammad Aazib Khan · Software Engineer & AI Engineer · Lucknow" },
       { name: "description", content: "ARC (Aazib Research Console). Software Engineer, AI Engineer, and Full Stack Developer in Lucknow building intelligent systems, automation, and AI products." },
       { name: "keywords", content: "Software Engineer, AI Engineer, Full Stack Developer, Lucknow, React, FastAPI, Python, Node.js, AI Product Builder, Aazib, ARC" },
-      { name: "author", content: "Aazib Khan" },
-      { property: "og:title", content: "ARC — Aazib Khan · Engineering Console" },
+      { name: "author", content: "Mohammad Aazib Khan" },
+      { property: "og:title", content: "ARC — Mohammad Aazib Khan · Engineering Console" },
       { property: "og:description", content: "A live operating console for an engineer building intelligent systems." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Person",
-        name: "Aazib Khan",
+        name: "Mohammad Aazib Khan",
         jobTitle: "Software Engineer, AI Engineer, Full Stack Developer",
         url: "/",
         address: { "@type": "PostalAddress", addressLocality: "Lucknow", addressRegion: "Uttar Pradesh", addressCountry: "IN" },
@@ -350,7 +350,7 @@ function MissionControl() {
         <div className="space-y-3">
           <div>
             <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">Name</div>
-            <div className="font-display text-2xl">Aazib Khan</div>
+            <div className="font-display text-2xl">Mohammad Aazib Khan</div>
           </div>
           <Field label="Role" value="Software Engineer" />
           <Field label="Location" value="Lucknow, India" />
@@ -715,7 +715,7 @@ function RecruiterMode() {
     <div className="mx-auto max-w-4xl space-y-8 py-4">
       <header className="border-b border-border/70 pb-6">
         <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Recruiter Mode · Executive View</div>
-        <h1 className="mt-2 font-display text-4xl">Aazib Khan</h1>
+        <h1 className="mt-2 font-display text-4xl">Mohammad Aazib Khan</h1>
         <p className="text-muted-foreground">Software Engineer · AI Engineer · Full Stack Developer — Lucknow, India</p>
         <div className="mt-4 flex flex-wrap gap-3 text-sm">
           <a href="mailto:aazib12j@gmail.com" className="inline-flex items-center gap-1.5 text-foreground hover:text-primary"><Mail className="h-4 w-4" /> aazib12j@gmail.com</a>
